@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3XE+nlxjRY0=",
+  "dgSpecHash": "XGZkSObxd5I=",
   "success": true,
-  "projectFilePath": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\WebP Image Converter.csproj",
+  "projectFilePath": "D:\\bk\\code\\Clone-web\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\WebP Image Converter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ccanpv\\.nuget\\packages\\imageprocessor\\2.9.1\\imageprocessor.2.9.1.nupkg.sha512",
     "C:\\Users\\ccanpv\\.nuget\\packages\\imageprocessor.plugins.webp\\1.3.0\\imageprocessor.plugins.webp.1.3.0.nupkg.sha512",

@@ -161,9 +161,7 @@ public class SalaryCalculateWrapper : ISalaryCalculateWrapper
         tt.DonViCoTaiSan = getOneNode(st, "b-dvico");
         tt.DonViBanDauGia = getOneNode(st, "b-dvb");
         tt.ThoiDienbanHoSo = getOneNode(st, "b-tdban");
-
         tt.NgayDauGia = getOneNode(st, "b-ngayban");
-
         tt.DiaDiemBanDauGia = getOneNode(st, "b-address");
 
         //var gt = @"<div class=""row"">

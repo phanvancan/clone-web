@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WebP Image Converter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e15dde04aa52c434aacc3f026a4efd9eb4b1778a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5481a9c8ef55ce58967df6cb2568a707907f1960")]
 [assembly: System.Reflection.AssemblyProductAttribute("WebP Image Converter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WebP Image Converter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

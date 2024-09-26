@@ -9,19 +9,19 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WebP_Image_Converter
 build_property.RootNamespace = WebP_Image_Converter
-build_property.ProjectDir = D:\bk\gtel\nhahat\download\Asp.Net-Core-5-WebP-Image-Converter-Compress\WebP Image Converter\
+build_property.ProjectDir = D:\bk\code\Clone-web\Asp.Net-Core-5-WebP-Image-Converter-Compress\WebP Image Converter\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\bk\gtel\nhahat\download\Asp.Net-Core-5-WebP-Image-Converter-Compress\WebP Image Converter
+build_property.MSBuildProjectDirectory = D:\bk\code\Clone-web\Asp.Net-Core-5-WebP-Image-Converter-Compress\WebP Image Converter
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/bk/gtel/nhahat/download/Asp.Net-Core-5-WebP-Image-Converter-Compress/WebP Image Converter/Views/Home/Index.cshtml]
+[D:/bk/code/Clone-web/Asp.Net-Core-5-WebP-Image-Converter-Compress/WebP Image Converter/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/bk/gtel/nhahat/download/Asp.Net-Core-5-WebP-Image-Converter-Compress/WebP Image Converter/Views/_ViewImports.cshtml]
+[D:/bk/code/Clone-web/Asp.Net-Core-5-WebP-Image-Converter-Compress/WebP Image Converter/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

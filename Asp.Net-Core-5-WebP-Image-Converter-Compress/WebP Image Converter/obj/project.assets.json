@@ -7822,11 +7822,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\WebP Image Converter.csproj",
+      "projectUniqueName": "D:\\bk\\code\\Clone-web\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\WebP Image Converter.csproj",
       "projectName": "WebP Image Converter",
-      "projectPath": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\WebP Image Converter.csproj",
+      "projectPath": "D:\\bk\\code\\Clone-web\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\WebP Image Converter.csproj",
       "packagesPath": "C:\\Users\\ccanpv\\.nuget\\packages\\",
-      "outputPath": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\obj\\",
+      "outputPath": "D:\\bk\\code\\Clone-web\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

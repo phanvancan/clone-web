@@ -6,39 +6,75 @@ using BackgroundServiceApplication.Services;
 using BackgroundServiceApplication.Wrappers.Contracts;
 using BackgroundServiceApplication.Wrappers;
 using BackgroundServiceApplication.download;
+using Microsoft.AspNetCore.Identity; 
+using dataConnect.Data;
 
-public class Program
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.Configuration;
+
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container.
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlServer(connectionString));
+builder.Services.AddDatabaseDeveloperPageExceptionFilter();
+
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<ApplicationDbContext>();
+builder.Services.AddControllersWithViews();
+
+var services = builder.Services;
+
+services.AddSingleton<ISalaryCalculateWrapper, SalaryCalculateWrapper>();
+services.AddSingleton<ISalaryCalculateService, SalaryCalculateService>();
+//   services.AddSingleton<IGetTextHtmlUrl, GetTextHtmlUrl>();
+
+services.AddHostedService<SalaryCalculateBackgroundWorker>();
+
+//services.AddHostedService<SalaryCalculateHostWorker>();
+
+
+
+
+
+services.Configure<HostOptions>(x =>
 {
-    public static void Main(string[] args)
-    {
-        CreateHostBuilder(args).Build().Run();
-    }
+    x.ShutdownTimeout = TimeSpan.FromSeconds(1);
+    x.BackgroundServiceExceptionBehavior = BackgroundServiceExceptionBehavior.StopHost;
+});
 
-    public static IHostBuilder CreateHostBuilder(string[] args) =>
-        Host.CreateDefaultBuilder(args)
-            .ConfigureServices((hostContext, services) =>
-            {
-                #region AddServices
+var app = builder.Build();
 
-               services.AddSingleton<ISalaryCalculateWrapper, SalaryCalculateWrapper>();
-                services.AddSingleton<ISalaryCalculateService, SalaryCalculateService>();
-             //   services.AddSingleton<IGetTextHtmlUrl, GetTextHtmlUrl>();
 
-                services.AddHostedService<SalaryCalculateBackgroundWorker>();
 
-                //services.AddHostedService<SalaryCalculateHostWorker>();
 
-                #endregion AddServices
+// Configure the HTTP request pipeline.
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseMigrationsEndPoint();
+//}
+//else
+//{
+//    app.UseExceptionHandler("/Home/Error");
+//    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+//    app.UseHsts();
+//}
 
-                #region [ Configure ]
+app.UseHttpsRedirection();
+app.UseStaticFiles();
 
-                services.Configure<HostOptions>(x =>
-                {
-                    x.ShutdownTimeout = TimeSpan.FromSeconds(1);
-                    x.BackgroundServiceExceptionBehavior = BackgroundServiceExceptionBehavior.StopHost;
-                });
+app.UseRouting();
 
-                #endregion [ Configure ]
+app.UseAuthorization();
 
-            });
-}
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Home}/{action=Index}/{id?}");
+//app.MapRazorPages();
+
+app.Run();
+
+
