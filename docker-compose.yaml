@@ -1,0 +1,42 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: app1netco
+    image: 'app1:netcore'
+    #
+    restart: always
+    volumes:
+      #- app-data:/app
+      - /home/hoguom/img/wwwroot/files:/app/wwwroot/files 
+      - ./appsettings.Production.json:/app/appsettings.Production.json
+      - ./logs:/app/logs
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro
+    ports:
+      - "8087:8087"
+    environment:
+      - "ASPNETCORE_ENVIRONMENT:Production"
+      - TZ=Asia/Ho_Chi_Minh
+    hostname: appnet.local
+    domainname: appnet.local
+    networks:
+       mynet:
+          aliases:
+            - appnet.local
+volumes:
+  app-data:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: ./be-dataapp
+networks:
+  mynet:
+    driver: bridge
+    external: true
+  eth012:
+    driver: bridge
+    external: false
+

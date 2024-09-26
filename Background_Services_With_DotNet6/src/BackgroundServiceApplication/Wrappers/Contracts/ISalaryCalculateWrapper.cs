@@ -1,0 +1,2 @@
+﻿namespace BackgroundServiceApplication.Wrappers.Contracts;
+

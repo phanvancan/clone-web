@@ -1,0 +1,53 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\wwwroot\\img\\212c2e74-c007-4c8e-ad8f-3f1f329479a1202402250616.webp",
+      "PackagePath": "staticwebassets\\img\\212c2e74-c007-4c8e-ad8f-3f1f329479a1202402250616.webp"
+    },
+    {
+      "Id": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\wwwroot\\img\\2136c3c4-6d7e-4d0f-92d3-412fa08c75bc202432250602.webp",
+      "PackagePath": "staticwebassets\\img\\2136c3c4-6d7e-4d0f-92d3-412fa08c75bc202432250602.webp"
+    },
+    {
+      "Id": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\wwwroot\\img\\56f2fbe2-37a9-4878-8126-c9d30e8c8e55202424250615.webp",
+      "PackagePath": "staticwebassets\\img\\56f2fbe2-37a9-4878-8126-c9d30e8c8e55202424250615.webp"
+    },
+    {
+      "Id": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\wwwroot\\img\\65_n.jpg",
+      "PackagePath": "staticwebassets\\img\\65_n.jpg"
+    },
+    {
+      "Id": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\wwwroot\\img\\7c746aef-619f-4ae8-a2f1-3f7235905f3f202406250615.webp",
+      "PackagePath": "staticwebassets\\img\\7c746aef-619f-4ae8-a2f1-3f7235905f3f202406250615.webp"
+    },
+    {
+      "Id": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\wwwroot\\img\\82448831-a584-4b26-a6c2-b5e62871af1b202404250619.webp",
+      "PackagePath": "staticwebassets\\img\\82448831-a584-4b26-a6c2-b5e62871af1b202404250619.webp"
+    },
+    {
+      "Id": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\wwwroot\\img\\DSC03767.jpg",
+      "PackagePath": "staticwebassets\\img\\DSC03767.jpg"
+    },
+    {
+      "Id": "D:\\bk\\gtel\\nhahat\\download\\Asp.Net-Core-5-WebP-Image-Converter-Compress\\WebP Image Converter\\wwwroot\\img\\cd8138c1-c0bd-4c05-ba6f-aa0728135530202401250650.webp",
+      "PackagePath": "staticwebassets\\img\\cd8138c1-c0bd-4c05-ba6f-aa0728135530202401250650.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebP Image Converter.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.WebP Image Converter.props",
+      "PackagePath": "build\\WebP Image Converter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.WebP Image Converter.props",
+      "PackagePath": "buildMultiTargeting\\WebP Image Converter.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.WebP Image Converter.props",
+      "PackagePath": "buildTransitive\\WebP Image Converter.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

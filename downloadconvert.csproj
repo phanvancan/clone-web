@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Asp.Net-Core-5-WebP-Image-Converter-Compress\**" />
+    <Compile Remove="WebPConverter\**" />
+    <Content Remove="Asp.Net-Core-5-WebP-Image-Converter-Compress\**" />
+    <Content Remove="WebPConverter\**" />
+    <EmbeddedResource Remove="Asp.Net-Core-5-WebP-Image-Converter-Compress\**" />
+    <EmbeddedResource Remove="WebPConverter\**" />
+    <None Remove="Asp.Net-Core-5-WebP-Image-Converter-Compress\**" />
+    <None Remove="WebPConverter\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Controllers\ExportController.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spire.XLS" Version="13.6.0" />
+  </ItemGroup>
+
+</Project>

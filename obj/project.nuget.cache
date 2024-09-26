@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "s+wliarGn5k=",
+  "success": true,
+  "projectFilePath": "D:\\bk\\code\\Clone-web\\downloadconvert.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ccanpv\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\ccanpv\\.nuget\\packages\\spire.xls\\13.6.0\\spire.xls.13.6.0.nupkg.sha512",
+    "C:\\Users\\ccanpv\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\ccanpv\\.nuget\\packages\\system.formats.asn1\\6.0.0\\system.formats.asn1.6.0.0.nupkg.sha512",
+    "C:\\Users\\ccanpv\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\ccanpv\\.nuget\\packages\\system.security.accesscontrol\\6.0.0\\system.security.accesscontrol.6.0.0.nupkg.sha512",
+    "C:\\Users\\ccanpv\\.nuget\\packages\\system.security.cryptography.pkcs\\6.0.0\\system.security.cryptography.pkcs.6.0.0.nupkg.sha512",
+    "C:\\Users\\ccanpv\\.nuget\\packages\\system.security.cryptography.xml\\6.0.0\\system.security.cryptography.xml.6.0.0.nupkg.sha512",
+    "C:\\Users\\ccanpv\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
