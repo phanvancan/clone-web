@@ -63,7 +63,7 @@ public class SalaryCalculateBackgroundWorker : BackgroundService
             {
                 await _salaryCalculateService.SalaryCalculateAsync();
 
-                await Task.Delay(TimeSpan.FromSeconds(5), stoppingToken);
+                await Task.Delay(TimeSpan.FromMinutes(15), stoppingToken);
                 Console.ForegroundColor = ConsoleColor.Blue;
                 Console.WriteLine($"Call Salary Api For Calculate Personnel Salary In This time : {DateTime.Now}");
             }

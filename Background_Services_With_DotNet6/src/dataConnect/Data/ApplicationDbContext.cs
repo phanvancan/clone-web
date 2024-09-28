@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-
+ 
 namespace dataConnect.Data
 {
     public class ApplicationDbContext : IdentityDbContext
@@ -9,5 +9,7 @@ namespace dataConnect.Data
             : base(options)
         {
         }
+        
+
     }
 }

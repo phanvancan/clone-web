@@ -23,7 +23,7 @@ public class SalaryCalculateWrapper : ISalaryCalculateWrapper
 {
   //private readonly  IGetTextHtmlUrl _htmlUrl;
     //private readonly IWebHostEnvironment _webHostEnvironment;
-    private const string urlAddress = "https://taisancong.vn/niem-yet-gia-dau-gia-dau-thau/thong-tin-ban-dau-gia";
+    private string urlAddress = "https://taisancong.vn/niem-yet-gia-dau-gia-dau-thau/thong-tin-ban-dau-gia&BRSR=";
    
     
     
